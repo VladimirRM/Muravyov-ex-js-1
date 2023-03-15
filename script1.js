@@ -8,6 +8,8 @@ body.appendChild(div);
 const header = document.createElement("h1");
 header.textContent = " DOM (Document object model)";
 
+console.log(header)
+
 div.insertAdjacentElement("beforebegin", header);
 
 const ul = `
